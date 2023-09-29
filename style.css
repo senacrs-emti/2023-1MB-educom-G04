@@ -1,0 +1,20 @@
+/* cores*/ 
+:root{
+    --azul:#4051E1;
+   --branco-fundo:#F7F7F9;
+   --vermelho:#FF3131;
+   --amarelo:#FCAC3D;
+   --azul-materia:#2E59A7;
+   --cinza:#303033;
+   --branco:#F7F7F9;
+}
+
+h1{
+    font-family:'paytoneone';   
+
+}
+
+@font-face {
+    font-family:'paytoneone';
+    src: url('c:\Users\Aluno\Desktop\paytoneone\PaytoneOne.ttf');
+}
