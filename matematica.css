@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+:root{
+    --azul:#4051E1;
+   --branco-fundo:#F7F7F9;
+   --vermelho:#FF3131;
+   --amarelo:#FCAC3D;
+   --azul-materia:#2E59A7;
+   --cinza:#303033;
+   --branco:#F7F7F9;
+}
+div {
+    position: absolute;
+    margin-left:50%;
+    transform: translate(-50%, -50%);
+    height: 150vh;
+    width: 100vw;
+    border-radius: 0px 0px 600px 600px;
+    background-color: #FF3131;
+}
