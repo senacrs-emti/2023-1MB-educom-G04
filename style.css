@@ -9,6 +9,11 @@
    --branco:#F7F7F9;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 h1{
     font-family:'paytoneone';   
 
@@ -17,4 +22,22 @@ h1{
 @font-face {
     font-family:'paytoneone';
     src: url('c:\Users\Aluno\Desktop\paytoneone\PaytoneOne.ttf');
+}
+
+header{
+background-color: #4051E1;
+height:10vh ;
+width: 100%;
+}
+
+header h1{
+    margin-left: 10vw;
+}
+
+main{
+ background-color: #FCAC3D;
+}
+
+footer{
+ background-color: #303033;
 }
