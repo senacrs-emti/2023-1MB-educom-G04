@@ -45,9 +45,23 @@ main{
  width: 100%;
  height: 100vh;
 }
+ main img{
+    width: 25vw;
+    height: 40vh;
+    float: right;
+ }
+
+ main p{
+    margin-left: 5vh;
+
+ }
 
 main h1{
 font-family:'paytoneOne'; 
+color: var(--azul-materia);
+margin-left: 5vh;
+padding-top: 10vh;
+
 }
 
 footer{
