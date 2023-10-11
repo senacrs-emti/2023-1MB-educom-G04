@@ -14,28 +14,54 @@
     margin: 0;
 }
 
-h1{
-    font-family:'paytoneone';   
-
-}
-
 @font-face {
-    font-family:'paytoneone';
-    src: url('c:\Users\Aluno\Desktop\paytoneone\PaytoneOne.ttf');
+    font-family:'paytoneOne';
+    src: url('uau/PaytoneOne.ttf');
 }
 
 header{
-background-color: #4051E1;
-height:10vh ;
+background-color:var(--azul-materia);
+height:12vh ;
 width: 100%;
 }
 
+header img{
+    float: left;
+    height:10vh ;
+    width:5vw ;
+    margin-left: 2vh;
+    margin-top: 1vh;
+}
+
 header h1{
-    margin-left: 10vw;
+    margin-top: 2vh;
+    margin-left: 7vw;
+    position: absolute;
+    font-family:'paytoneOne';
 }
 
 main{
- background-color: #FCAC3D;
+ background-color: var(--branco-fundo);
+ width: 100%;
+ height: 100vh;
+}
+ main img{
+    width: 25vw;
+    height: 40vh;
+    float: right;
+ }
+
+ main p{
+    margin-left: 5vh;
+
+ }
+
+main h1{
+font-family:'paytoneOne'; 
+color: var(--azul-materia);
+margin-left: 5vh;
+padding-top: 10vh;
+
 }
 
 footer{
