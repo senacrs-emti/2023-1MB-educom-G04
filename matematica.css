@@ -1,0 +1,58 @@
+:root{
+    --azul:#4051E1;
+   --branco-fundo:#F7F7F9;
+   --vermelho:#FF3131;
+   --amarelo:#FCAC3D;
+   --azul-materia:#2E59A7;
+   --cinza:#303033;
+   --branco:#F7F7F9;
+}
+
+@font-face {
+    font-family:'paytoneOne';
+    src: url('uau/PaytoneOne.ttf');
+}
+
+#cont,h2, #titulo{
+    font-family:'paytoneOne';
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f9;
+}
+#cont{
+    text-align: center;
+    margin: 0;
+    color: #FF3131;
+    font-size: 100px;
+}
+.funaf h2 {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin: 0;
+}
+.vid iframe{
+    padding-left: 50px;
+}
+
+#meiocirculo {
+    margin-left:50%;
+    transform: translate(-50%, -50%);
+    height: 205vh;
+    width: 100%;
+    border-radius: 0px 0px 40% 40%;
+    background-color: #FF3131;
+    margin-bottom: 0;
+}
+#titulo{
+    z-index: 99999;
+    position: absolute;
+    top: 0%;
+    background: transparent;
+    margin-left: 30vw;
+    margin-top: 20vh;
+    font-size: 80px;
+
+}
