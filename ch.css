@@ -12,6 +12,34 @@
     font-family:'paytoneOne';
     src: url('uau/PaytoneOne.ttf');
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f9;
+}
+header{
+    height: 700px;
+}
+
+#cont{
+    text-align: center;
+    margin: 0px;
+    color: #FF3131;
+    font-size: 100px;
+    padding-bottom: 50px;    
+    font-family:'paytoneOne';
+}
+.funaf h2 {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin: 0;
+    font-family:'paytoneOne';
+}
+.vid iframe{
+    padding-left: 50px;
+}
 #meiocirculo {
     margin-left:50%;
     transform: translate(-50%, -50%);
