@@ -98,3 +98,22 @@ main #tiA{
     margin-right: 21vh;
 
 }
+
+.primeiro{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #FF3131;
+    margin-left: 90vh;
+    margin-top: 50vw;
+}
+
+.texto{
+    color:palevioletred;
+    font-size: 7vh;
+    text-align:center;
+    font-weight: bold;
+
+
+}
+    

@@ -1,0 +1,42 @@
+ <style>
+          .round-button {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 100px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 80vh;
+
+            border-color: transparent;
+            
+          }
+        
+          .red-button {
+            background-color: #FF3131;
+            color: white;
+          }
+        
+          .yellow-button {
+            background-color: #FCAC3D;
+            color: rgb(255, 255, 255);
+          }
+        
+          .blue-button {
+            background-color: #2E59A7;
+            color: white;
+          }
+        
+        
+        </style>
+    
+        
+        <button  class= "round-button red-button">Mat</button>
+        <button class="round-button yellow-button">Ch</button>
+        <button class="round-button blue-button">Cn</button>
+        <button class="round-button red-button">Lin</button>
+        
+        
+        
