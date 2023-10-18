@@ -82,12 +82,11 @@ footer{
  background-color: #303033;
 }
 
-main img#a{
+main #a{
     padding: 3vw;
     height:70vh ;
     width: 40vw;
     position: absolute;
-    left: 0;
     font-family:'paytoneOne'; 
 }
 main #tiA{
@@ -98,6 +97,14 @@ main #tiA{
     margin-right: 21vh;
 
 }
+.texto{
+    color: var(--branco);
+    font-size: 7vh;
+    font-weight: bold;
+    padding-top: 30px;
+    display: block;
+    margin-left: 16px;
+}
 
 .primeiro{
     width: 120px;
@@ -105,15 +112,8 @@ main #tiA{
     border-radius: 50%;
     background-color: #FF3131;
     margin-left: 90vh;
-    margin-top: 50vw;
+    margin-top: 35vw;
+    z-index: 1
 }
 
-.texto{
-    color:palevioletred;
-    font-size: 7vh;
-    text-align:center;
-    font-weight: bold;
-
-
-}
     

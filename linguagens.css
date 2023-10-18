@@ -17,6 +17,75 @@
     padding: 0;
     background-color: #f7f7f9;
 }
+header{
+    height: 700px;
+}
+#meiocirculo {
+    margin-left:50%;
+    transform: translate(-50%, -50%);
+    height: 205vh;
+    width: 100%;
+    border-radius: 0px 0px 43% 43%;
+    background-color: #4051E1;
+    margin-bottom: 0;
+}
+.titulo{
+    z-index: 99999;
+    position: absolute;
+    top: 0%;
+    background: transparent;
+    margin-left: 7vw;
+    margin-top: 15vh;
+    font-size: 100px;
+    color: #F7F7F9;
+    font-family: 'paytoneOne';
+}
+#subtitulo{
+    z-index: 99999;
+    position: absolute;
+    top: 0%;
+    background: transparent;
+    margin-left: 35vw;
+    margin-top: 37vh;
+    font-size: 28px;
+    color: #F7F7F9;
+}
+#globo{
+    position: absolute;
+    top: 0%;
+    background: transparent;
+    width: 30vw;
+    height: 35vh;
+    margin-left: 34vw;
+    margin-top: 50vh;
+}
+#cont{
+    text-align: center;
+    margin: 0px;
+    color: #4051E1;
+    font-size: 100px;
+    padding-bottom: 50px;    
+    font-family:'paytoneOne';
+}
+
+.subt{
+    margin: 0px;
+    color: #4051E1;
+    font-size: 50px;
+    font-family:'paytoneOne';
+}
+.funaf h2{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin: 0;
+    font-family:'paytoneOne';
+}
+.vid iframe{
+    padding-left: 50px;
+}
+
+/*/parte da giulia/*/
 #meiocirculo {
     margin-left:50%;
     transform: translate(-50%, -50%);
