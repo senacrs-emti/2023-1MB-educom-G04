@@ -104,6 +104,11 @@ footer{
     margin-left: 10vw;
     margin-bottom: 10vh;
 }
+.canalfoto{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
 #titulofooter{
     text-align: center;
     font-size: 100px;

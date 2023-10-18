@@ -91,3 +91,8 @@ footer{
     color: #F7F7F9;
     font-family:'paytoneOne';
 }
+.canalfoto{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
