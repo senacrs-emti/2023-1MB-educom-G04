@@ -1,17 +1,4 @@
-:root{
-    --azul:#4051E1;
-   --branco-fundo:#F7F7F9;
-   --vermelho:#FF3131;
-   --amarelo:#FCAC3D;
-   --azul-materia:#2E59A7;
-   --cinza:#303033;
-   --branco:#F7F7F9;
-}
 
-@font-face {
-    font-family:'paytoneOne';
-    src: url('uau/PaytoneOne.ttf');
-}
 * {
     margin: 0;
     padding: 0;
@@ -20,19 +7,13 @@
 header{
     height: 700px;
 }
+
 #cont{
     text-align: center;
     margin: 0px;
-    color: #4051E1;
+    color: #FCAC3D;
     font-size: 100px;
     padding-bottom: 50px;    
-    font-family:'paytoneOne';
-}
-
-.subt{
-    margin: 0px;
-    color: #4051E1;
-    font-size: 50px;
     font-family:'paytoneOne';
 }
 .funaf h2{
