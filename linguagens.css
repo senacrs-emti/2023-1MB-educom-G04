@@ -17,31 +17,6 @@
     padding: 0;
     background-color: #f7f7f9;
 }
-header{
-    height: 700px;
-}
-#cont{
-    text-align: center;
-    margin: 0px;
-    color: #FF3131;
-    font-size: 100px;
-    padding-bottom: 50px;    
-    font-family:'paytoneOne';
-}
-.funaf h2{
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    margin: 0;
-    font-family:'paytoneOne';
-}
-.vid iframe{
-    padding-left: 50px;
-}
-
-
-/*/parte da giulia/*/
-
 #meiocirculo {
     margin-left:50%;
     transform: translate(-50%, -50%);
@@ -62,15 +37,33 @@ header{
     color: #F7F7F9;
     font-family:'paytoneOne';
 }
-#comunista{
+#subtitulo{
+    z-index: 99999;
+    position: absolute;
+    top: 0%;
+    background: transparent;
+    margin-left: 30vw;
+    margin-top: 37vh;
+    font-size: 28px;
+    color: #F7F7F9;
+}
+#livro{
     position: absolute;
     top: 0%;
     background: transparent;
     width: 35vw;
     height: 35vh;
-    margin-left: 31vw;
+    margin-left: 33vw;
     margin-top: 50vh;
 }
+
+
+
+
+
+
+
+
 footer{
     background-color: #FF3131;
     width: 100%;

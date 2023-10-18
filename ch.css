@@ -40,6 +40,9 @@ header{
 .vid iframe{
     padding-left: 50px;
 }
+
+
+/*/parte da giulia/*/
 #meiocirculo {
     margin-left:50%;
     transform: translate(-50%, -50%);
@@ -54,10 +57,30 @@ header{
     position: absolute;
     top: 0%;
     background: transparent;
-    margin-left: 27vw;
-    margin-top: 20vh;
+    margin-left: 15vw;
+    margin-top: 15vh;
     font-size: 100px;
     color: #F7F7F9;
+    font-family: 'paytoneOne';
+}
+#subtitulo{
+    z-index: 99999;
+    position: absolute;
+    top: 0%;
+    background: transparent;
+    margin-left: 30vw;
+    margin-top: 37vh;
+    font-size: 28px;
+    color: #F7F7F9;
+}
+#globo{
+    position: absolute;
+    top: 0%;
+    background: transparent;
+    width: 30vw;
+    height: 35vh;
+    margin-left: 34vw;
+    margin-top: 50vh;
 }
 footer{
     background-color: #FCAC3D;
