@@ -74,7 +74,7 @@ header{
     font-size: 50px;
     font-family:'paytoneOne';
 }
-.funaf h2{
+.português h2{
     padding-left: 40px;
     padding-bottom: 20px;
     padding-top: 30px;
@@ -111,11 +111,17 @@ header{
     position: absolute;
     top: 0%;
     background: transparent;
-    margin-left: 30vw;
     margin-top: 37vh;
     font-size: 28px;
     color: #F7F7F9;
 }
+.azao{
+    color: #F7F7F9;
+}
+#azinho{
+    margin-left: 1vw;
+}
+
 #livro{
     position: absolute;
     top: 0%;
