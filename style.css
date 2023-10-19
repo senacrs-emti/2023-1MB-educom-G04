@@ -177,6 +177,7 @@ main #tiA{
     width: 55vw;
     margin-left: 80vh;
     margin-top: 65vh;
+    margin-bottom: 10%;
 
  }
 
@@ -200,22 +201,21 @@ main #tiA{
     transition: 0.3s;
     border-radius: 5px;
   }
-  
-  img{
-    width: 230px;
-    height: 230px;
-  }
 
+.will{
+    width: 290px;
+    height: 170px;
+}
   .didi{
     position: relative;
-    top: 100px;
+    top: 60px;
     z-index: 99999;
-    left: 11px;
+    left: 230px;
   }
 
 .card{
     width: 260px;
-    height: 310px;
+    height: 363px;
     margin-bottom: 30px;
     display: flex;
     position: relative;
@@ -251,7 +251,6 @@ main #tiA{
     font-weight: 800;
 }
 
-
 .box{
     width: 100px;
     height: auto;
@@ -264,6 +263,6 @@ main #tiA{
 #selecaodotite{
     color: #4050e1;
     font-size: 80px;
-    text-align: center;
     position: absolute;
+    left: 20%;
 }
