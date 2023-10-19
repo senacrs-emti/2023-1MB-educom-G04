@@ -112,6 +112,9 @@ main #tiA{
     border-radius: 50%;
     background-color: #FF3131;
     display: block;
+    float: left;
+    margin-left: 10vh;
+    
 
 }
 
@@ -120,7 +123,6 @@ main #tiA{
     font-size: 7vh;
     font-weight: bold;
     padding-top: 30px;
-    display: block;
     margin-left: 27px;
 }
 
@@ -130,8 +132,8 @@ main #tiA{
     border-radius: 50%;
     background-color: var(--amarelo);
     display: block;
-
-    
+    float: left;
+    margin-left: 5vh;
 }
 
 .textob{
@@ -139,7 +141,6 @@ main #tiA{
      font-size: 7vh;
      font-weight: bold;
      padding-top: 30px;
-     display: block;
      margin-left: 27px;
  }
  
@@ -147,11 +148,10 @@ main #tiA{
      width: 120px;
      height: 120px;
      border-radius: 50%;
-     background-color: var(--azul-materia);
+     background-color: var(--azul-materia); 
      display: block;
-    
-
-     
+     float: left;
+     margin-left: 5vh;
  }
 
  .textoc{
@@ -159,7 +159,6 @@ main #tiA{
      font-size: 7vh;
      font-weight: bold;
      padding-top: 30px;
-     display: block;
      margin-left: 27px;
  }
  
@@ -167,22 +166,18 @@ main #tiA{
      width: 120px;
      height: 120px;
      border-radius: 50%;
-     background-color: var(--vermelho);
-     
+     background-color: var(--vermelho); 
      display: block;
-    
-    
-     
+     float: left;
+     margin-left: 5vh;
  }
 
- div{
+ #caixa{
     height:25vh ;
-    width: 50vw;
+    width: 55vw;
     margin-left: 80vh;
-    float: left;
-    
-    
-    background-color: #FF3131;
+    margin-top: 65vh;
+
  }
 
     
