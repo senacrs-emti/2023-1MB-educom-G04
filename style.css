@@ -226,7 +226,7 @@ main #tiA{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:'paytoneOne';
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
@@ -280,7 +280,12 @@ a{
 
 footer{
     width: 100%;
-    height: auto;
-    display: block;
-    background-color: ;
+    height: 75px;
+    clear: both;
+    background-color: var(--branco);
+    position: absolute;
+}
+
+.eric{
+    padding-right: 20px;
 }

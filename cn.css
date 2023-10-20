@@ -40,6 +40,7 @@ header{
     color: #F7F7F9;
     font-family: 'paytoneOne';
 }
+
 #subtitulo{
     z-index: 99999;
     position: absolute;
@@ -49,6 +50,13 @@ header{
     margin-top: 37vh;
     font-size: 28px;
     color: #F7F7F9;
+}
+
+.azao{
+    color: #F7F7F9;
+}
+#azinho{
+    margin-left: 1vw;
 }
 #globo{
     position: absolute;
