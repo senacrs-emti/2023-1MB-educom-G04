@@ -1,0 +1,73 @@
+body{
+    background-color: #f7f7f9;
+}
+
+@font-face {
+    font-family: 'crosa';
+    src: url(uau/Crusoe-Text-Regular/CrusoeText-Regular.ttf);
+}
+
+@font-face {
+    font-family:'paytoneOne';
+    src: url('uau/PaytoneOne.ttf');
+}
+
+#linha1{
+    width: 800px;
+    background-color: #4051E1;
+    height: 2px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#linha2{
+    width: 2px;
+    height: 580px;
+    background-color: #4051E1;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+#claudia{
+    top: 11%;
+    left: 8%;
+    position: absolute;
+    color: #4051E1;
+    font-size: 60px;
+    font-family:'paytoneOne';
+}
+
+img{
+    width: 165px;
+    height: 90px;
+    position: absolute;
+    top: 2%;
+    left: -32px;
+}
+
+#temids{
+    width: 1100px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 26%;
+    left: 8%;
+}
+.pips{
+    color: #4051E1;
+    font-size: 25px;
+    font-family: 'crosa';
+}
+
+#abelferreira{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+a{
+    color: #4051E1;
+}
+
+#vinho{
+    color: #4051E1;
+}
