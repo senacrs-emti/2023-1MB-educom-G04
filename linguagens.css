@@ -26,7 +26,7 @@ header{
     height: 205vh;
     width: 100%;
     border-radius: 0px 0px 43% 43%;
-    background-color: #4051E1;
+    background-color: #FF3131;
     margin-bottom: 0;
 }
 .titulo{
@@ -64,7 +64,7 @@ nav{
     height: 70px;
     display: block;
     float: left;
-    background-color: #44c767;
+  
     
 }
 #botaodropdow i{
@@ -78,9 +78,7 @@ nav{
     padding: 14px 16px;
     text-decoration: none;
   }
-  .topnav{
-    margin-left: 5vw;
-  }
+
   /* The dropdown container */
   .dropdown {
     float: left;
@@ -170,10 +168,11 @@ background-color:#a2eb7b;
 position:relative;
 top:1px;
 }
+
 #cont{
     text-align: center;
     margin: 0px;
-    color: #4051E1;
+    color: #FF3131;
     font-size: 100px;
     padding-bottom: 50px;    
     font-family:'paytoneOne';
@@ -181,7 +180,7 @@ top:1px;
 
 .subt{
     margin: 0px;
-    color: #4051E1;
+    color: #FF3131;
     font-size: 50px;
     font-family:'paytoneOne';
 }
