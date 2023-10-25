@@ -74,6 +74,119 @@ header{
     font-size: 100px;
     padding-bottom: 50px;    
     font-family:'paytoneOne';
+    margin-left: 5vw;
+    background-color: transparent;
+}
+h4{
+    background-color: transparent;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: block;
+    float: left;
+  
+    
+}
+#botaodropdow i{
+  color: white;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+   
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+
+   
+  }
+#botaodropdow{
+  margin-top: 10px;
+ 
+}
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 255, 255); 
+    color: black;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.myButton {
+background-color:#44c767;
+border-radius:28px;
+border:1px solid #4be85a;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family: 'Cormorant Infant', serif;
+font-size:17px;
+padding:16px 31px;
+text-decoration:none;
+text-shadow:0px 1px 0px #74d465;
+margin-top: 60px;
+margin-left: 60px;
+margin-bottom: 20px;
+justify-content: center;
+
+}
+
+.myButton:hover {
+background-color:#a2eb7b;
+
+}
+
+.myButton:active {
+position:relative;
+top:1px;
 }
 
 .subt{
