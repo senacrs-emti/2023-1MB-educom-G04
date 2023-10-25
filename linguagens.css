@@ -171,19 +171,28 @@ top:1px;
 
 #cont{
     text-align: center;
-    margin: 0px;
+    margin: px;
+    margin-left: 5vw;
     color: #FF3131;
     font-size: 100px;
     padding-bottom: 50px;    
     font-family:'paytoneOne';
 }
-
+.funaf h2{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin: 0;
+    font-family:'paytoneOne';
+}
 .subt{
     margin: 0px;
     color: #FF3131;
     font-size: 50px;
     font-family:'paytoneOne';
+    margin-left: 5vw;
 }
+
 .português h2{
     padding-left: 40px;
     padding-bottom: 20px;
