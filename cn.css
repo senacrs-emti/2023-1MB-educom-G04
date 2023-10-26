@@ -8,6 +8,10 @@
    --branco:#F7F7F9;
 }
 
+#subtitulo a{
+  color: white;
+}
+
 @font-face {
     font-family:'paytoneOne';
     src: url('uau/PaytoneOne.ttf');
