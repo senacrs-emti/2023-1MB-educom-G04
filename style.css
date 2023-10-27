@@ -56,6 +56,7 @@ main{
  main p{
     margin-left: 5vh;
     font-size: 4vh;
+    display: block;
 
  }
 
@@ -65,6 +66,7 @@ color: var(--azul-materia);
 margin-left: 5vh;
 padding-top: 10vh;
 font-size: 15vh;
+display: block;
 
 }
 
@@ -120,6 +122,7 @@ main #tiA{
     font-weight: bold;
     padding-top: 30px;
     margin-left: 27px;
+    display: block;
 }
 
 .segundo{
@@ -138,6 +141,7 @@ main #tiA{
      font-weight: bold;
      padding-top: 30px;
      margin-left: 27px;
+     display: block;
  }
  
  .terceiro{
@@ -156,6 +160,7 @@ main #tiA{
      font-weight: bold;
      padding-top: 30px;
      margin-left: 27px;
+     display: block;
  }
  
  .quarto{
@@ -174,6 +179,7 @@ main #tiA{
     margin-left: 80vh;
     margin-top: 65vh;
     margin-bottom: 10%;
+    display: block;
 
  }
 
@@ -292,4 +298,178 @@ footer{
 
 #caixa a{
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    :root{
+        --azul:#4051E1;
+       --branco-fundo:#F7F7F9;
+       --vermelho:#FF3131;
+       --amarelo:#FCAC3D;
+       --azul-materia:#2E59A7;
+       --cinza:#303033;
+       --branco:#F7F7F9;
+    }
+    
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        background-color:var(--azul-materia);
+        height:12vh ;
+        width: 100%;
+        }
+        
+        header img{
+            float: left;
+            height:6vh ;
+            width:5vw ;
+            margin-left: 2vh;
+            margin-top: 3.8vh;
+        }
+        
+        header h1{
+            margin-top: 2vh;
+            margin-left: 7vw;
+            position: absolute;
+            font-family:'paytoneOne';
+        }
+        
+        main{
+         background-color: var(--branco-fundo);
+         width: 10vw;
+         height: 30vh;
+        }
+         main img{
+            width: 30vw;
+            height: 60vh;
+            float: right;
+           margin-top: 17vh;
+           margin-right: 10vh;
+         }
+        
+         main p{
+            margin-left: 5vh;
+            font-size: 4vh;
+            display: block;
+        
+         }
+        
+        main h1{
+        font-family:'paytoneOne'; 
+        color: var(--azul-materia);
+        margin-left: 5vh;
+        padding-top: 10vh;
+        font-size: 15vh;
+        display: block;
+        
+        }
+        
+        
+        
+        main h2{    
+        font-family:'paytoneOne'; 
+        color: var(--azul-materia);
+        font-size: 12vh;
+        
+        
+        }
+        
+        main #a{
+            padding: 3vw;
+            height:70vh ;
+            width: 40vw;
+            position: absolute;
+            font-family:'paytoneOne'; 
+        }
+        main #tiA{
+            position: absolute;
+            right: 0;
+            float: right;
+            margin-top: 13vw;
+            margin-right: 21vh;
+        
+        }
+        .texto{
+            color: var(--branco);
+            font-size: 7vh;
+            font-weight: bold;
+            padding-top: 30px;
+            display: block;
+            margin-left: 16px;
+        }
+        
+        .primeiro{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #FF3131;
+            display: block;
+            float: left;
+            margin-left: 10vh;
+            
+        
+        }
+        
+        .textoa{
+           color: var(--branco);
+            font-size: 7vh;
+            font-weight: bold;
+            padding-top: 30px;
+            margin-left: 27px;
+            display: block;
+        }
+        
+        .segundo{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: var(--amarelo);
+            display: block;
+            float: left;
+            margin-left: 5vh;
+        }
+        
+        .textob{
+            color: var(--branco);
+             font-size: 7vh;
+             font-weight: bold;
+             padding-top: 30px;
+             margin-left: 27px;
+             display: block;
+         }
+         
+         .terceiro{
+             width: 120px;
+             height: 120px;
+             border-radius: 50%;
+             background-color: var(--azul-materia); 
+             display: block;
+             float: left;
+             margin-left: 5vh;
+         }
+        
+         .textoc{
+            color: var(--branco);
+             font-size: 7vh;
+             font-weight: bold;
+             padding-top: 30px;
+             margin-left: 27px;
+             display: block;
+         }
+         
+         .quarto{
+             width: 120px;
+             height: 120px;
+             border-radius: 50%;
+             background-color: var(--vermelho); 
+             display: block;
+             float: left;
+             margin-left: 5vh;
+         }
+    
+
+    
 }
