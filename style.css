@@ -56,7 +56,6 @@ main{
  main p{
     margin-left: 5vh;
     font-size: 4vh;
-    display: block;
 
  }
 
@@ -66,7 +65,6 @@ color: var(--azul-materia);
 margin-left: 5vh;
 padding-top: 10vh;
 font-size: 15vh;
-display: block;
 
 }
 
@@ -122,7 +120,6 @@ main #tiA{
     font-weight: bold;
     padding-top: 30px;
     margin-left: 27px;
-    display: block;
 }
 
 .segundo{
@@ -141,7 +138,6 @@ main #tiA{
      font-weight: bold;
      padding-top: 30px;
      margin-left: 27px;
-     display: block;
  }
  
  .terceiro{
@@ -160,7 +156,6 @@ main #tiA{
      font-weight: bold;
      padding-top: 30px;
      margin-left: 27px;
-     display: block;
  }
  
  .quarto{
@@ -179,7 +174,6 @@ main #tiA{
     margin-left: 80vh;
     margin-top: 65vh;
     margin-bottom: 10%;
-    display: block;
 
  }
 
