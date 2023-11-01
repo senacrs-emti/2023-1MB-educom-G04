@@ -19,26 +19,24 @@
     src: url('uau/PaytoneOne.ttf');
 }
 
+
+
 header{
 background-color:var(--azul-materia);
-height:12vh ;
+height:100px;
 width: 100%;
-}
+display: flex;
 
-header img{
-    float: left;
-    height:6vh ;
-    width:5vw ;
-    margin-left: 2vh;
-    margin-top: 3.8vh;
 }
 
 header h1{
-    margin-top: 2vh;
-    margin-left: 7vw;
-    position: absolute;
-    font-family:'paytoneOne';
+    font-family:'paytoneOne'; 
+    margin-left: 100px;
+    margin-top: 400px;
+    
 }
+
+
 
 main{
  background-color: var(--branco-fundo);
@@ -292,4 +290,14 @@ footer{
 
 #caixa a{
     color: white;
+}
+/* */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: red!important;
+    }
+
+    footer{
+
+    }
 }
