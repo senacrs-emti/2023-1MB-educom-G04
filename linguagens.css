@@ -53,142 +53,131 @@
     background-color: #f7f7f9;
 }
 header{
-    height: 700px;
+  height: 50vw;
 }
-#meiocirculo {
-    margin-left:50%;
-    transform: translate(-50%, -50%);
-    height: 205vh;
-    width: 100%;
-    border-radius: 0px 0px 43% 43%;
-    background-color: #FF3131;
-    margin-bottom: 0;
+
+#cont{
+  text-align: center;
+  margin: 0%;
+  color: #FF3131;
+  font-size: 8vw;
+  margin-left: 5vw;
+  font-family:'paytoneOne'; 
+  background-color: transparent;
+  margin-bottom: 5vh;
+  display: block;
+  margin-right: 5vw;
 }
-.titulo{
-    z-index: 99999;
-    position: absolute;
-    top: 0%;
-    background: transparent;
-    margin-left: 7vw;
-    margin-top: 15vh;
-    font-size: 100px;
-    color: #F7F7F9;
-    font-family: 'paytoneOne';
+.funaf h2{
+  padding-left: 4vw;
+  padding-bottom: 3vh;
+  padding-top: 5vh;
+  margin: 0;
+  font-family:'paytoneOne';
 }
-#subtitulo{
-    z-index: 99999;
-    position: absolute;
-    top: 0%;
-    background: transparent;
-    margin-left: 35vw;
-    margin-top: 37vh;
-    font-size: 28px;
-    color: #F7F7F9;
+.vid iframe{
+  padding-left: 5vw;
 }
-#globo{
-    position: absolute;
-    top: 0%;
-    background: transparent;
-    width: 30vw;
-    height: 35vh;
-    margin-left: 34vw;
-    margin-top: 50vh;
-}
+
+
+/*/parte da giulia/*/
+
 nav{
-    width: 100%;
-    height: 70px;
-    display: block;
-    float: left;
+  width: 100%;
+  height: 7vw;
+  display: block;
+  float: left;
+
   
-    
 }
 #botaodropdow i{
-  color: white;
+color: white;
 }
 .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  float: left;
+  font-size: 1.6vw;
+  color: white;
+  text-align: center;
+  padding: 1.4vw 1.6vh;
+  text-decoration: none;
+}
 
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-    margin-left: 20px;
-   
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-
-   
-  }
-#botaodropdow{
-  margin-top: 10px;
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-left: 2vw;
+  display: block;
  
 }
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(255, 255, 255); 
-    color: black;
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; 
 
-  }
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    
-  }
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 1.6vw;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 1.4vh 1.6vw;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+
+ 
+}
+#botaodropdow{
+margin-top: 1vh;
+
+}
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(255, 255, 255); 
+  color: black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  background-color: white;
+  min-width: 16vw;
+  box-shadow: 0% 0.8vw 1.6vw 0% rgba(0,0,0,0.2);
+  z-index: 1; 
+
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 1.2vw 1.6vw;
+  text-decoration: none;
+  display: block;
+  text-align: left;
   
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .myButton {
-background-color:#44c767;
-border-radius:28px;
-border:1px solid #4be85a;
+
+border-radius:2.8vw;
+border:1vw solid #4be85a;
 display:inline-block;
 cursor:pointer;
 color:#ffffff;
 font-family: 'Cormorant Infant', serif;
-font-size:17px;
-padding:16px 31px;
+font-size:1.7vw;
+padding:1.6vw 3.1vw;
 text-decoration:none;
-text-shadow:0px 1px 0px #74d465;
-margin-top: 60px;
-margin-left: 60px;
-margin-bottom: 20px;
+text-shadow:0% 1vw 0% #74d465;
+margin-top: 6vw;
+margin-left: 6vw;
+margin-bottom: 2vw;
 justify-content: center;
 
 }
@@ -200,101 +189,38 @@ background-color:#a2eb7b;
 
 .myButton:active {
 position:relative;
-top:1px;
-}
-
-#cont{
-    text-align: center;
-    margin: px;
-    margin-left: 5vw;
-    color: #FF3131;
-    font-size: 100px;
-    padding-bottom: 50px;    
-    font-family:'paytoneOne';
-    background-color: transparent;
-}
-h4{
-    background-color: transparent;
-}
-.funaf h2{
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    margin: 0;
-    font-family:'paytoneOne';
-}
-.subt{
-    margin: 0px;
-    color: #FF3131;
-    font-size: 50px;
-    font-family:'paytoneOne';
-    margin-left: 5vw;
-}
-
-.português h2{
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    margin: 0;
-    font-family:'paytoneOne';
-}
-.vid iframe{
-    padding-left: 50px;
-}
-
-/*/parte da giulia/*/
-#meiocirculo {
-    margin-left:50%;
-    transform: translate(-50%, -50%);
-    height: 205vh;
-    width: 100%;
-    border-radius: 0px 0px 43% 43%;
-    background-color: #FF3131;
-    margin-bottom: 0;
+top:1vw;
 }
 .titulo{
-    z-index: 99999;
-    position: absolute;
-    top: 0%;
-    background: transparent;
-    margin-left: 24vw;
-    margin-top: 15vh;
-    font-size: 100px;
-    color: #F7F7F9;
-    font-family:'paytoneOne';
+z-index: 99999;
+position: absolute;
+top: 0%;
+background: transparent;
+margin-left: 18vw;
+margin-top: 5%;
+font-size: 10vw;
+color: #F7F7F9;
+font-family:'paytoneOne';
 }
-#subtitulo{
-    z-index: 99999;
-    position: absolute;
-    top: 0%;
-    background: transparent;
-    margin-top: 37vh;
-    font-size: 28px;
-    color: #F7F7F9;
+#meiocirculo {
+margin-left:50%;
+transform: translate(-50%, -50%);
+height:180%;
+width: 100%;
+border-radius: 0% 0% 43% 43%;
+background-color: #FF3131;
+margin-bottom: 0;    
 }
-.azao{
-    color: #F7F7F9;
-}
-#azinho{
-    margin-left: 1vw;
-}
+
+
 
 #livro{
-    position: absolute;
-    top: 0%;
-    background: transparent;
-    width: 35vw;
-    height: 35vh;
-    margin-left: 33vw;
-    margin-top: 50vh;
+  background: transparent;
+  position: absolute;
+  top: 45%;
+  width: 25vw;
+  margin-left: 38%;
 }
-
-
-
-
-
-
-
 
 footer{
     background-color: #FF3131;
@@ -327,4 +253,57 @@ footer{
     width: 240px;
     height: 240px;
     border-radius: 50%;
+}
+.azao{
+  color: #F7F7F9;
+}
+#azinho{
+  margin-left: 1vw;
+}
+/* MOBILE - ultima */
+@media only screen and (max-width: 627px) {
+
+  #meiocirculo {
+    top: 0!important;
+  }
+  .titulo{
+    margin-top: 5%;
+  }
+  #livro, .grow{
+    top: 20%;
+    width: 25vw;
+    margin-left: 38%;
+  }
+}
+
+@media only screen and (max-width: 1116px) {
+
+  #meiocirculo {
+    top: 0!important;
+  }
+  .titulo{
+    margin-top: 5%;
+  }
+  #livro, .grow{
+    top: 40%;
+    width: 25vw;
+    margin-left: 38%;
+  }
+}
+
+@media only screen and (max-width: 857px) {
+  
+  #meiocirculo {
+  
+    top: 0!important;
+  }
+  .titulo{
+    margin-top: 5%;
+  
+  }
+  #livro, .grow{
+    top: 20%;
+    width: 25vw;
+    margin-left: 38%;
+  }
 }
