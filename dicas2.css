@@ -13,7 +13,7 @@ body{
 }
 
 #linha1{
-    width: 800px;
+    width: 65vw;
     background-color: #4051E1;
     height: 2px;
     margin-left: 50px;
@@ -21,17 +21,17 @@ body{
 }
 #linha2{
     width: 2px;
-    height: 690px;
+    height: 55vw;
     background-color: #4051E1;
     margin-left: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 5vw;
 }
 #claudia{
     top: 11%;
     left: 8%;
     position: absolute;
     color: #4051E1;
-    font-size: 60px;
+    font-size: 5vw;
     font-family:'paytoneOne';
 }
 
@@ -53,7 +53,7 @@ img{
 }
 .pips{
     color: #4051E1;
-    font-size: 25px;
+    font-size: 2vw;
     font-family: 'crosa';
 }
 
