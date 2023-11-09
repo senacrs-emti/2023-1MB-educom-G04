@@ -12,6 +12,16 @@
   color: white;
 }
 
+#subtitulo{
+  z-index: 99999;
+  position: absolute;
+  top: 0%;
+  background: transparent;
+  margin-left: 35vw;
+  margin-top: 37vh;
+  font-size: 28px;
+  color: #F7F7F9;
+}
 .grow:hover
 {
         -xpedu-transform: scale(1.1);
@@ -289,7 +299,7 @@ margin-bottom: 0;
 #globo{
   background: transparent;
   position: absolute;
-  top: 45%;
+  top: 48%;
   width: 25vw;
   margin-left: 38%;
 }
