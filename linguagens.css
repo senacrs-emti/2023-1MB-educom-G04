@@ -17,8 +17,16 @@
         -ms-transform: scale(1.1);
         transform: scale(1.1);
 }
-
-
+#subtitulo{
+  z-index: 99999;
+  position: absolute;
+  top: 0%;
+  background: transparent;
+  margin-left: 35vw;
+  margin-top: 39vh;
+  font-size: 28px;
+  color: #F7F7F9;
+}
 .tooltip {
     position: relative;
     display: inline-block;
@@ -217,7 +225,7 @@ margin-bottom: 0;
 #livro{
   background: transparent;
   position: absolute;
-  top: 45%;
+  top: 48%;
   width: 25vw;
   margin-left: 38%;
 }
