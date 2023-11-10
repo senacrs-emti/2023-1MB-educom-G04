@@ -116,8 +116,8 @@ footer{
 
   @media only screen and (max-width: 980px) {
         img{
-            width: 15px;
-            height: 15px;
+            width: 150px;
+            height: 150px;
             position: absolute;
             top: 2%;
             left: -32px;
