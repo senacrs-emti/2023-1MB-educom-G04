@@ -8,6 +8,16 @@
    --branco:#F7F7F9;
 }
 
+.subt{
+  padding-left: 4vw;
+  padding-bottom: 3vh;
+  padding-top: 5vh;
+  margin: 0;
+  font-family: 'paytoneOne';
+  font-size: 5vw;
+
+}
+
 #subtitulo a{
   color: white;
 }
@@ -105,7 +115,7 @@ header{
 #cont{
   text-align: center;
   margin: 0%;
-  color: #FCAC3D;
+  color: #4051E1;
   font-size: 8vw;
   margin-left: 5vw;
   font-family:'paytoneOne'; 
@@ -306,50 +316,88 @@ margin-bottom: 0;
 
 
 
-/* MOBILE - ultima */
-@media only screen and (max-width: 627px) {
 
-  #meiocirculo {
-    top: 0!important;
+@media only screen and (max-width: 2605px){
+  
+  .videos{
+    width: 30vw;
+    height: 30vh;
   }
-  .titulo{
-    margin-top: 5%;
-  }
-  #globo{
-    top: 20%;
-    width: 25vw;
-    margin-left: 38%;
-  }
+  
+.vid iframe{
+  margin-left: 0.8vw;
 }
-
+  }
+  
 @media only screen and (max-width: 1116px) {
-
+  
   #meiocirculo {
     top: 0!important;
   }
   .titulo{
     margin-top: 5%;
   }
-  #globo{
+  #comunista{
     top: 40%;
     width: 25vw;
     margin-left: 38%;
   }
+  .videos{
+    width: 30vw;
+    height: 26vh;
+  }
+  
+.vid iframe{
+  margin-left: 0.8vw;
 }
-
+}
 @media only screen and (max-width: 857px) {
   
   #meiocirculo {
-  
     top: 0!important;
   }
   .titulo{
     margin-top: 5%;
-  
+
   }
-  #globo{
-    top: 20%;
+  #comunista{
+    top: 30%;
     width: 25vw;
     margin-left: 38%;
   }
+  
+  .videos{
+    width: 400;
+    height: 125px;
+  }
+  
+.vid iframe{
+  margin-left: 0.8vw;
 }
+
+}
+
+  @media only screen and (max-width: 627px){
+  
+    #meiocirculo {
+      top: 0!important;
+    }
+    .titulo{
+      margin-top: 5%;
+    }
+    #comunista{
+      top: 20%;
+      width: 25vw;
+      margin-left: 38%;
+    }
+    
+  
+  .videos{
+    width: 30vw;
+    height: 15vh;
+  }
+  
+.vid iframe{
+  margin-left: 0.8vw;
+}
+  }

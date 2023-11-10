@@ -308,7 +308,7 @@ footer{
   
   .videos{
     width: 400;
-    height: 200;
+    height: 125px;
   }
   
 .vid iframe{
@@ -320,7 +320,6 @@ footer{
   @media only screen and (max-width: 627px){
   
     #meiocirculo {
-      background-color: #2E59A7;
       top: 0!important;
     }
     .titulo{
