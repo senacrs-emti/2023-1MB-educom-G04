@@ -22,19 +22,19 @@
 
 
 header{
-background-color:var(--azul-materia);
 height:100px;
 width: 100%;
-
-
 }
 
 header h1{
-    font-family:'paytoneOne'; 
-    margin-left: 20vh;
-    padding-top: 20px;
+    font-family:'paytoneOne';
+    font-size: 8vh;
+    margin-left: 15vh;
+    padding-top: 15px;
+    position: absolute;
     
 }
+
 
 
 
