@@ -72,6 +72,7 @@ main h2{
 font-family:'paytoneOne'; 
 color: var(--azul-materia);
 font-size: 12vh;
+display: block;
 
 
 }
@@ -80,6 +81,7 @@ main #a{
     padding: 3vw;
     height:70vh ;
     width: 40vw;
+    display: block;
     position: absolute;
     font-family:'paytoneOne'; 
 }
@@ -294,6 +296,10 @@ footer{
 }
 /* */
 @media only screen and (max-width: 600px) {
+
+    header {
+        
+    }
     body {
       background-color: red!important;
     }
