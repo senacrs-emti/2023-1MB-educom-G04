@@ -1,91 +1,97 @@
-/* cores*/ 
-:root{
-    --azul:#4051E1;
-   --branco-fundo:#F7F7F9;
-   --vermelho:#FF3131;
-   --amarelo:#FCAC3D;
-   --azul-materia:#2E59A7;
-   --cinza:#303033;
-   --branco:#F7F7F9;
+/* cores*/
+:root {
+    --azul: #4051E1;
+    --branco-fundo: #F7F7F9;
+    --vermelho: #FF3131;
+    --amarelo: #FCAC3D;
+    --azul-materia: #2E59A7;
+    --cinza: #303033;
+    --branco: #F7F7F9;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 @font-face {
-    font-family:'paytoneOne';
+    font-family: 'paytoneOne';
     src: url('uau/PaytoneOne.ttf');
 }
 
 
 
-header{
-height:100px;
-width: 100%;
+header {
+    height: 100px;
+    width: 100%;
 }
 
-header h1{
-    font-family:'paytoneOne';
+header h1 {
+    font-family: 'paytoneOne';
     font-size: 8vh;
     margin-left: 15vh;
     padding-top: 15px;
     position: absolute;
-    
+
+}
+
+header img{
+    width:100%;
 }
 
 
 
 
-main{
- background-color: var(--branco-fundo);
- width: 100%;
- height: 300vh;
+main {
+    background-color: var(--branco-fundo);
+    width: 100%;
+    height: 300vh;
 }
- main img{
+
+main img {
     width: 30vw;
     height: 60vh;
     float: right;
-   margin-top: 17vh;
-   margin-right: 10vh;
- }
+    margin-top: 17vh;
+    margin-right: 10vh;
+}
 
- main p{
+main p {
     margin-left: 5vh;
     font-size: 4vh;
 
- }
+}
 
-main h1{
-font-family:'paytoneOne'; 
-color: var(--azul-materia);
-margin-left: 5vh;
-padding-top: 10vh;
-font-size: 15vh;
+main h1 {
+    font-family: 'paytoneOne';
+    color: var(--azul-materia);
+    margin-left: 5vh;
+    padding-top: 10vh;
+    font-size: 15vh;
 
 }
 
 
 
-main h2{    
-font-family:'paytoneOne'; 
-color: var(--azul-materia);
-font-size: 12vh;
-display: block;
+main h2 {
+    font-family: 'paytoneOne';
+    color: var(--azul-materia);
+    font-size: 12vh;
+    display: block;
 
 
 }
 
-main #a{
+main #a {
     padding: 3vw;
-    height:70vh ;
+    height: 70vh;
     width: 40vw;
     display: block;
     position: absolute;
-    font-family:'paytoneOne'; 
+    font-family: 'paytoneOne';
 }
-main #tiA{
+
+main #tiA {
     position: absolute;
     right: 0;
     float: right;
@@ -93,7 +99,8 @@ main #tiA{
     margin-right: 21vh;
 
 }
-.texto{
+
+.texto {
     color: var(--branco);
     font-size: 7vh;
     font-weight: bold;
@@ -102,7 +109,7 @@ main #tiA{
     margin-left: 16px;
 }
 
-.primeiro{
+.primeiro {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -110,19 +117,19 @@ main #tiA{
     display: block;
     float: left;
     margin-left: 10vh;
-    
+
 
 }
 
-.textoa{
-   color: var(--branco);
+.textoa {
+    color: var(--branco);
     font-size: 7vh;
     font-weight: bold;
     padding-top: 30px;
     margin-left: 27px;
 }
 
-.segundo{
+.segundo {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -132,84 +139,85 @@ main #tiA{
     margin-left: 5vh;
 }
 
-.textob{
+.textob {
     color: var(--branco);
-     font-size: 7vh;
-     font-weight: bold;
-     padding-top: 30px;
-     margin-left: 27px;
- }
- 
- .terceiro{
-     width: 120px;
-     height: 120px;
-     border-radius: 50%;
-     background-color: var(--azul-materia); 
-     display: block;
-     float: left;
-     margin-left: 5vh;
- }
+    font-size: 7vh;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 27px;
+}
 
- .textoc{
+.terceiro {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--azul-materia);
+    display: block;
+    float: left;
+    margin-left: 5vh;
+}
+
+.textoc {
     color: var(--branco);
-     font-size: 7vh;
-     font-weight: bold;
-     padding-top: 30px;
-     margin-left: 27px;
- }
- 
- .quarto{
-     width: 120px;
-     height: 120px;
-     border-radius: 50%;
-     background-color: var(--vermelho); 
-     display: block;
-     float: left;
-     margin-left: 5vh;
- }
+    font-size: 7vh;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 27px;
+}
 
- #caixa{
-    height:25vh ;
+.quarto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--vermelho);
+    display: block;
+    float: left;
+    margin-left: 5vh;
+}
+
+#caixa {
+    height: 25vh;
     width: 55vw;
     margin-left: 80vh;
     margin-top: 65vh;
     margin-bottom: 10%;
 
- }
+}
 
- .card{
+.card {
     box-shadow: 0 4px 8px 0 #dcdef0;
     transition: 0.3s;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0 8px 16px 0 #dcdef0;
 }
 
-.info{
+.info {
     padding: 2px 16px;
     padding-top: 60px;
     text-align: center;
 }
 
-.card{
+.card {
     box-shadow: 0 4px 8px 0 #dcdef0;
     transition: 0.3s;
     border-radius: 5px;
-  }
+}
 
-.will{
+.will {
     width: 290px;
     height: 170px;
 }
-  .didi{
+
+.didi {
     position: relative;
     top: 60px;
     z-index: 99999;
     left: 230px;
-  }
+}
 
-.card{
+.card {
     width: 260px;
     height: 363px;
     margin-bottom: 30px;
@@ -220,34 +228,36 @@ main #tiA{
 }
 
 .myButton {
-	background-color:#4050e1;
-	border-radius:28px;
-	border:1px solid #4050e1;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:'paytoneOne';
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #4050e1;
+    background-color: #4050e1;
+    border-radius: 28px;
+    border: 1px solid #4050e1;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'paytoneOne';
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #4050e1;
     margin-top: 8px;
 }
+
 .myButton:hover {
-	background-color:#f6b637;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+    background-color: #f6b637;
 }
 
-.titulo{
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.titulo {
     color: #4050e1;
     margin-top: 1vh;
     font-weight: 800;
 }
 
-.box{
+.box {
     width: 17vh;
     height: auto;
     display: block;
@@ -256,29 +266,29 @@ main #tiA{
     margin-right: 150px;
 }
 
-#selecaodotite{
+#selecaodotite {
     color: #4050e1;
     font-size: 80px;
     position: absolute;
     left: 22vw;
 }
 
-#abelferreira{
+#abelferreira {
     color: black;
     font-size: 3vh;
     text-align: center;
     margin-bottom: 5vw;
 }
 
-a{
+a {
     color: #4051E1;
 }
 
-#vinho{
+#vinho {
     color: #4051E1;
 }
 
-footer{
+footer {
     width: 100%;
     height: 75px;
     clear: both;
@@ -286,25 +296,12 @@ footer{
     position: absolute;
 }
 
-.eric{
+.eric {
     padding-right: 20px;
     font-size: 4vh;
 }
 
-#caixa a{
+#caixa a {
     color: white;
 }
-/* */
-@media only screen and (max-width: 600px) {
 
-    header {
-        
-    }
-    body {
-      background-color: red!important;
-    }
-
-    footer{
-
-    }
-}
