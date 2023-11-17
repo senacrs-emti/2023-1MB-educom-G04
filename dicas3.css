@@ -36,8 +36,8 @@ body{
 }
 
 img{
-    width: 165px;
-    height: 90px;
+    width: 25vh;
+    height: 15vh;
     position: absolute;
     top: 2%;
     left: -32px;
