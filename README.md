@@ -1,6 +1,6 @@
 # 2023-1MB-educom-G04
 <div style="display: grid; grid-template-columns: 300px 300px; grid-template-rows: 300px 300px;">
-<img src="C:\xampp\htdocs\NAJA-SOMAR-main\2023-1MB-educom-G04\imagensprojeto\paginicial.png" style="width: 250px; height: 300px;">
+<img src="paginicial.png" style="width: 250px; height: 300px;">
 <img src="C:\xampp\htdocs\NAJA-SOMAR-main\2023-1MB-educom-G04\imagensprojeto\duvidas.png" style="width: 250px; height: 300px;">
 <img src="C:\xampp\htdocs\NAJA-SOMAR-main\2023-1MB-educom-G04\imagensprojeto\dicas.png" style="width: 250px; height: 300px; margin-top: 10px;">
 </div>
