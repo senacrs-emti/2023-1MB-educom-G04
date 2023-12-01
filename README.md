@@ -21,3 +21,5 @@ Auxiliar os alunos nas dúvidas de cada matéria, com vídeos, canais e dicas de
 Youtube, Bootstrap, W3Schools.
  
 ## Integrantes
+
+<a href="https://github.com/giuliaalvess">Giulia Alves</a>, <a href="https://github.com/camileroyer">Camile Royer</a>, <a href="https://github.com/Biancapinz">Bianca Pinzon</a> e <a href="https://github.com/Rafadfonseca">Rafaela Duarte</a>
