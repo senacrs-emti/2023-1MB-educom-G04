@@ -2,7 +2,7 @@
 <div style="display: grid; grid-template-columns: 300px 300px; grid-template-rows: 300px 300px;">
 <img src="imagensprojeto\paginicial.png">
 <img src="imagensprojeto\duvidas.png">
-<img src="imagensprojeto\dicas.png">
+<img src="imagensprojeto\dics.png">
 </div>
  
 <br>
