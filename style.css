@@ -102,7 +102,7 @@ main #tiA {
 
 .texto {
     color: var(--branco);
-    font-size: 7vh;
+    font-size: 6vh;
     font-weight: bold;
     padding-top: 30px;
     display: block;
@@ -123,7 +123,7 @@ main #tiA {
 
 .textoa {
     color: var(--branco);
-    font-size: 7vh;
+    font-size: 6vh;
     font-weight: bold;
     padding-top: 30px;
     margin-left: 27px;
@@ -141,7 +141,7 @@ main #tiA {
 
 .textob {
     color: var(--branco);
-    font-size: 7vh;
+    font-size: 6vh;
     font-weight: bold;
     padding-top: 30px;
     margin-left: 27px;
@@ -159,7 +159,7 @@ main #tiA {
 
 .textoc {
     color: var(--branco);
-    font-size: 7vh;
+    font-size: 6vh;
     font-weight: bold;
     padding-top: 30px;
     margin-left: 27px;
